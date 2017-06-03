@@ -3,7 +3,7 @@
 
 <img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
-Overview
+The Project
 ---
 
   This is the result of some hours of hard work, frustrations and success. Detecting lines on the road proved to be an exiting learning experience. Overcoming this challenge is defenitely a stepping stone in my carrer as a future autonomus car engineer.
