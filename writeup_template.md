@@ -17,7 +17,7 @@ For this:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./examples/solidWhiteRight.jpg "Grayscale"
 
 ---
 
