@@ -27,7 +27,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 <figure>
     <img src="/test_images/whiteLanes.png" width = "800" alt="White lanes" />
-    <center><figcaption>Unprocessed frame, plain picture</figcaption></center>
+   <p align="center"> <figcaption>Unprocessed frame, plain picture</figcaption></p>
 </figure>
 
 <img src="/test_images/simple_line_noextrapolation.png" width="800" alt="White lane no extrapolation" />
