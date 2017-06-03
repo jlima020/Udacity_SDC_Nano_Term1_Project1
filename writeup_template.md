@@ -23,8 +23,8 @@ For this:
 
 The pipeline consists of following a series of 5 steps.
 
-First, get a new frame and convert it to grayscale using the helper function GRAYSCALE.
-The resulting output is shown below.
+First, get a new frame and convert it to grayscale using the helper function grayscale(img).
+...The resulting output is shown below.
 
 ![alt-text](/test_images/whiteLanes.png "New frame") ![alt-text](/test_images/whiteLanes.png "Grayscale")
 
