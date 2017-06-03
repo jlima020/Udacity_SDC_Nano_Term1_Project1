@@ -41,7 +41,9 @@ If you'd like to include images to show how the pipeline works, here is how to i
 
 
 
-![alt text][image3]
+<img src="/test_images/Full_line_extrapolation.png" width="800" alt="White lanes with extrapolation" />
+
+
 ### 2. Identify potential shortcomings with your current pipeline
 
 
