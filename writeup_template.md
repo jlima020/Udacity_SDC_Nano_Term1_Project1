@@ -15,12 +15,6 @@ For this:
 * Output the result to a new video with the lane lines annotated
 
 
-[//]: # (Image References)
-
-[image1]: ./test_images/solidWhiteRight.jpg "White lines"
-[image2]: ./test_images/simple_line_noextrapolation.png "No extrapolation"
-[image3]: ./test_images/Full_line_extrapolation.png "extrapolation"
-
 ---
 
 ## Reflection
@@ -31,7 +25,6 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale, th
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
 <img src="/test_images/whiteLanes.png" width = "800" alt="White lanes" />
 
