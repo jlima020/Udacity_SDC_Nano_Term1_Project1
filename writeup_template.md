@@ -25,9 +25,9 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale, th
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
-<figure>
+<figure style="text-align: center;">
     <img src="/test_images/whiteLanes.png" width = "800" alt="White lanes" />
-   <figcaption style="text-align: center"> Unprocessed frame, plain picture</figcaption>
+   <figcaption> Unprocessed frame, plain picture</figcaption>
 </figure>
 
 <img src="/test_images/simple_line_noextrapolation.png" width="800" alt="White lane no extrapolation" />
