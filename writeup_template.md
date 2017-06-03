@@ -40,7 +40,7 @@ The resulting output is shown below side by side.
 
 Second, get the grayscale frame and apply gaussian blur using the helper *_function gaussian_blur(img, kernel_size)_*. A kernel of size 5 was chosen to remove image noise using blur.
 
-![alt-text][image2] ![alt-text][image3]
+# ![alt-text][image2] ![alt-text][image3]
 
 
 Third, the grayscale image with blur is passed to the canny edge detection function *_canny(img, low_threshold, high_threshold)_*.
@@ -51,7 +51,7 @@ By trial en error, the low and high threshold values we selected as 50 and 150 r
 
 Fourth, the image is masked to show only the area of interest, the road, using the *_region_of_interest(img, vertices)_* function.
 
-# ![alt-text][image5]
+![alt-text][image5]
 
 
 Fifth, the masked image is passed to the *_hough_lines(img, rho, theta, threshold, min_line_len, max_line_gap)_* helper function
