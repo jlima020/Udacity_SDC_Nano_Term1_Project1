@@ -17,7 +17,7 @@ For this:
 
 [//]: # (Image References)
 
-[image1]: ./examples/solidWhiteRight.jpg "Grayscale"
+[image1]: ./test_images/solidWhiteRight.jpg "White lines"
 
 ---
 
