@@ -61,7 +61,7 @@ Lastly, the result of the hough transform is passed to the *_weighted_img(img, i
 
 These results are not optimal. The goal was to draw only one line for the left and one for the right lanes that run continuosly. This is achieved by modifying the *_draw_lines(img, lines, color=[255, 0, 0], thickness=7)_* function by gathering all coordinates points, and using the *_polyfit_* function from *_numpy_*, to calculate the slope of the line that best fit these coordinates. Making the *_y_* values fixed makes it possible to draw lines all the way to the edge of the frame, changing only the values of x based on the slopes calculated. The result of this is show below. It can be easyly seen the improvement. The images to the right are the ones plotted using extrapolation.
 
-![alt-text][image6] ![alt-text][image7]
+![alt-text][image7] ![alt-text][image6]
 ![alt-text][image9] ![alt-text][image8]
 
 ### 2. Identify potential shortcomings with your current pipeline
