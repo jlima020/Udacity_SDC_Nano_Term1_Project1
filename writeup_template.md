@@ -67,7 +67,10 @@ These results are not optimal. The goal was to draw only one line for the left a
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+The solution presented here has several drawbacks.
+
+Trying to detect curved lanes on the road produces erratic results as can be seen in the challange video output. 
+Another shortcoming is the fact that changes in the lighting conditionsd the contrast of the lanes with the pavement will likely result in no line detection at all, due to the fact that the parameters for the *_canny_* and *_hough_* functions are harcoded on the program and optimizde for the specific conditions of the particular road on the videos.   
 
 Another shortcoming could be ...
 
