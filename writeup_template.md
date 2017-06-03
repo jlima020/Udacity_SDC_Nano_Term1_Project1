@@ -49,10 +49,15 @@ By trial en error, the low and high threshold values we selected as 50 and 150 r
 
 Fourth, the image is masked to show only the area of interest, the road, using the *_region_of_interest(img, vertices)_* function.
 
-![alt-text][image5]
-
 
 Fifth, the masked image is passed to the *_hough_lines(img, rho, theta, threshold, min_line_len, max_line_gap)_* helper function
+. This function returns an image with straight lines, drawn in red, that represent the position of the lane lines on the road. Various parameters have to be adjusted to try to produce an optimal result.
+
+
+Lastly, the result of the hough transform is passed to the *_weighted_img(img, initial_img, α=0.8, β=1., λ=0.)_* that produces the frame with the annotations of the detected lines. The resulting output is shown below.
+
+![alt-text][image7] ![alt-text][image9]
+
 
 
 ### 2. Identify potential shortcomings with your current pipeline
