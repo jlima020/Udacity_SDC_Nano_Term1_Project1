@@ -21,9 +21,10 @@ For this:
 
 ### 1. Building the pipeline
 
-The pipeline consists of following a series of 5 steps. First, get a new frame like the one in Figure_1 and convert it to grayscale.
+The pipeline consists of following a series of 5 steps.
+First, get a new frame like the one in Figure_1 and convert it to grayscale.
 
-![alt-text-1](/test_images/whiteLanes.png "New frame") ![alt-text-2](/test_images/whiteLanes.png "grayscale")
+![alt-text](/test_images/whiteLanes.png "New frame") ![alt-text](/test_images/whiteLanes.png "grayscale")
 
 <figure>
     <img src="/test_images/whiteLanes.png" width = "400" alt="White lanes" />
