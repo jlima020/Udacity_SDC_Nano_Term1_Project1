@@ -17,7 +17,7 @@ For this:
 
 ---
 
-[image1]: /test_images/whiteLanes.png "New frame"
+[image1]: /test_images/lanes.png "New frame"
 [image2]: /test_images/gray.png "Grayscale"
 [image3]: /test_images/blur.png "Grayscale blur"
 [image4]: /test_images/canny.png "Canny edges"
