@@ -21,7 +21,7 @@ For this:
 
 ### 1. Building the pipeline
 
-The pipeline consists of following a series of 5 steps.
+The pipeline consists of following a series of 5 steps\n.
 First, get a new frame like the one in Figure_1 and convert it to grayscale.
 
 ![alt-text](/test_images/whiteLanes.png "New frame") ![alt-text](/test_images/whiteLanes.png "grayscale")
