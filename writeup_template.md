@@ -28,7 +28,7 @@ The pipeline consists of following a series of 5 steps.
 First, get a new frame and convert it to grayscale using the helper function grayscale(img). 
 The resulting output is shown below.
 
-![alt-text][image1 "New frame"] ![alt-text][image2 "Grayscale"]
+![alt-text][image1] ![alt-text][image2]
 
 
 Second, get the grayscale frame and apply gaussian blur using the helper function BLUR
