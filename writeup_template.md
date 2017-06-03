@@ -17,7 +17,7 @@ For this:
 
 [//]: # (Image References)
 
-[image1]: ./test_images/solidWhiteRight.jpg | width = 300 "White lines"
+[image1]: ./test_images/solidWhiteRight.jpg "White lines"
 [image2]: ./test_images/simple_line_noextrapolation.png "No extrapolation"
 [image3]: ./test_images/Full_line_extrapolation.png "extrapolation"
 
@@ -33,7 +33,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
-![alt text][image1]
+![alt text][image1 | width = 300]
 
 
 
