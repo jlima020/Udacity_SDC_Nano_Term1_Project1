@@ -21,11 +21,11 @@ For this:
 
 ### 1. Building the pipeline
 
-The pipeline consists of the following series of 5 steps:
-***get
+The pipeline consists of following a series of 5 steps. First, get a new frame like the one in Figure_1 and convert it to grayscale.
 
 <figure>
-    <img src="/test_images/whiteLanes.png" width = "800" alt="White lanes" />
+    <img src="/test_images/whiteLanes.png" width = "400" alt="White lanes" />
+       <img src="/test_images/whiteLanes.png" width = "400" alt="White lanes" />
    <figcaption>Figure_1: Unprocessed frame, plain picture</figcaption>
 </figure>
 
