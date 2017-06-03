@@ -8,9 +8,11 @@
 
 **Finding Lane Lines on the Road**
 
-The goals / steps of this project are the following:
-* Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
+Given a video stream, find the lane lines of the road 
+using techniques of computer vision. 
+For this:
+* Build a pipeline for processing the video
+* Output the result to a new video with the lane lines annotated
 
 
 [//]: # (Image References)
