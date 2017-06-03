@@ -19,6 +19,13 @@ For this:
 
 [image1]: /test_images/whiteLanes.png "New frame"
 [image2]: /test_images/gray.png "Grayscale"
+[image3]: /test_images/blur.png "Grayscale blur"
+[image4]: /test_images/canny.png "Canny edges"
+[image5]: /test_images/cannyWmask.png "Canny edges with mask"
+[image6]: /test_images/hough.png "Hough with extrapolation"
+[image7]: /test_images/houghNoExtrapolation.png "Hough with no extrapolation"
+[image8]: /test_images/Full_line_extrapolation.png "Final result with extrapolation"
+[image9]: /test_images/simple_line_noextrapolation.png "final result without extrapolation"
 ## Reflection
 
 ### 1. Building the pipeline
@@ -33,7 +40,7 @@ The resulting output is shown below.
 
 Second, get the grayscale frame and apply gaussian blur using the helper function BLUR
 
-![alt-text](/test_images/whiteLanes.png "New frame") ![alt-text](/test_images/whiteLanes.png "grayscale")
+![alt-text][image2] ![alt-text][image3]
 <figure>
     <img src="/test_images/whiteLanes.png" width = "400" alt="White lanes" />
        <img src="/test_images/whiteLanes.png" width = "400" alt="White lanes" />
