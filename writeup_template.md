@@ -43,10 +43,16 @@ Second, get the grayscale frame and apply gaussian blur using the helper functio
 ![alt-text][image2] ![alt-text][image3]
 
 
-Fifth, the grayscale image with blur is passed to the canny edge detection function canny(img, low_threshold, high_threshold).
+Third, the grayscale image with blur is passed to the canny edge detection function canny(img, low_threshold, high_threshold).
 By trial en error, the low and high threshold values we selected as 50 and 150 respectively, following the 1:3 ratio rule. Output result is shown below side by side.
 
 ![alt-text][image3] ![alt-text][image4]
+
+
+Fourth, the image is masked to show only the area of interest, the road, using the region_of_interest(img, vertices): function.
+![alt-text][image5]
+
+
 
 <img src="/test_images/simple_line_noextrapolation.png" width="800" alt="White lane no extrapolation" />
 
