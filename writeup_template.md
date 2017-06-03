@@ -21,9 +21,8 @@ For this:
 
 ### 1. Building the pipeline
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
-
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
+The pipeline consists of the following series of 5 steps:
+***get
 
 <figure>
     <img src="/test_images/whiteLanes.png" width = "800" alt="White lanes" />
