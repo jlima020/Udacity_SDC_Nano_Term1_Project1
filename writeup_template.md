@@ -23,12 +23,13 @@ For this:
 
 The pipeline consists of following a series of 5 steps.
 
-First, get a new frame like the one in Figure_1 and convert it to grayscale.
+First, get a new frame and convert it to grayscale using the helper function GRAYSCALE.
+The resulting output is shown below.
 
-![alt-text](/test_images/whiteLanes.png "New frame") ![alt-text](/test_images/whiteLanes.png "grayscale")
+![alt-text](/test_images/whiteLanes.png "New frame") ![alt-text](/test_images/whiteLanes.png "Grayscale")
 
 
-Second, get the grayscale frame and apply gaussian blur.
+Second, get the grayscale frame and apply gaussian blur using the helper function BLUR
 
 ![alt-text](/test_images/whiteLanes.png "New frame") ![alt-text](/test_images/whiteLanes.png "grayscale")
 <figure>
