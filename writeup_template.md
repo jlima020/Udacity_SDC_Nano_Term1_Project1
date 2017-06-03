@@ -51,7 +51,7 @@ By trial en error, the low and high threshold values we selected as 50 and 150 r
 
 Fourth, the image is masked to show only the area of interest, the road, using the *_region_of_interest(img, vertices)_* function.
 
-![alt-text][image5]
+# ![alt-text][image5]
 
 
 Fifth, the masked image is passed to the *_hough_lines(img, rho, theta, threshold, min_line_len, max_line_gap)_* helper function
