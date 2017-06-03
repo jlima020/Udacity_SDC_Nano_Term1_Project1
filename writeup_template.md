@@ -1,11 +1,10 @@
-# **Finding Lane Lines on the Road** 
+# Finding Lane Lines on the Road
 
 ## by Jorge F Lima
 
 ---
-### Problem Statement.
+## Problem Statement.
 
----
 
 **Finding Lane Lines on the Road**
 
