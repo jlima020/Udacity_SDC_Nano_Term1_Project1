@@ -30,35 +30,31 @@ For this:
 
 ### 1. Building the pipeline
 
-The pipeline consists of following a series of 5 steps.
+The pipeline consists of following a series of 6 steps.
 
-First, get a new frame and convert it to grayscale using the helper function grayscale(img). 
+First, get a new frame and convert it to grayscale using the helper function *_grayscale(img)_*. 
 The resulting output is shown below side by side.
 
 ![alt-text][image1] ![alt-text][image2]
 
 
-Second, get the grayscale frame and apply gaussian blur using the helper function gaussian_blur(img, kernel_size). A kernel of size 5 was chosen to remove image noise using blur.
+Second, get the grayscale frame and apply gaussian blur using the helper *_function gaussian_blur(img, kernel_size)_*. A kernel of size 5 was chosen to remove image noise using blur.
 
 ![alt-text][image2] ![alt-text][image3]
 
 
-Third, the grayscale image with blur is passed to the canny edge detection function canny(img, low_threshold, high_threshold).
+Third, the grayscale image with blur is passed to the canny edge detection function *_canny(img, low_threshold, high_threshold)_*.
 By trial en error, the low and high threshold values we selected as 50 and 150 respectively, following the 1:3 ratio rule. Output result is shown below side by side.
 
 ![alt-text][image3] ![alt-text][image4]
 
 
-Fourth, the image is masked to show only the area of interest, the road, using the region_of_interest(img, vertices): function.
+Fourth, the image is masked to show only the area of interest, the road, using the *_region_of_interest(img, vertices)_* function.
+
 ![alt-text][image5]
 
 
-
-<img src="/test_images/simple_line_noextrapolation.png" width="800" alt="White lane no extrapolation" />
-
-
-
-<img src="/test_images/Full_line_extrapolation.png" width="800" alt="White lanes with extrapolation" />
+Fifth, the masked image is passed to the *_hough_lines(img, rho, theta, threshold, min_line_len, max_line_gap)_* helper function
 
 
 ### 2. Identify potential shortcomings with your current pipeline
