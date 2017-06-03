@@ -18,6 +18,8 @@ For this:
 [//]: # (Image References)
 
 [image1]: ./test_images/solidWhiteRight.jpg "White lines"
+[image2]: ./test_images/simple_line_noextrapolation.png "No extrapolation"
+[image3]: ./test_images/Full_line_extrapolation.png "extrapolation"
 
 ---
 
@@ -34,6 +36,12 @@ If you'd like to include images to show how the pipeline works, here is how to i
 ![alt text][image1]
 
 
+
+![alt text][image2]
+
+
+
+![alt text][image3]
 ### 2. Identify potential shortcomings with your current pipeline
 
 
