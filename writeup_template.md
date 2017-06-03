@@ -17,8 +17,8 @@ For this:
 
 ---
 
-[image1]: /test_images/whiteLanes.png
-[image2]: /test_images/gray.png
+[image1]: /test_images/whiteLanes.png "New frame"
+[image2]: /test_images/gray.png "Grayscale"
 ## Reflection
 
 ### 1. Building the pipeline
