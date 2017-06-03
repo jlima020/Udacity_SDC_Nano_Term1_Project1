@@ -33,11 +33,11 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
-<img src="/test_images/solidWhiteRight.jpg" width = "1000" />
+<img src="/test_images/solidWhiteRight.jpg" width = "800" alt="White lanes" />
 
 
 
-![alt text][image2]
+<img src="/test_images/simple_line_noextrapolation.png" width="800" alt="White lane no extrapolation" />
 
 
 
