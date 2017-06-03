@@ -33,19 +33,20 @@ For this:
 The pipeline consists of following a series of 5 steps.
 
 First, get a new frame and convert it to grayscale using the helper function grayscale(img). 
-The resulting output is shown below.
+The resulting output is shown below side by side.
 
 ![alt-text][image1] ![alt-text][image2]
 
 
-Second, get the grayscale frame and apply gaussian blur using the helper function BLUR
+Second, get the grayscale frame and apply gaussian blur using the helper function gaussian_blur(img, kernel_size). A kernel of size 5 was chosen to remove image noise using blur.
 
 ![alt-text][image2] ![alt-text][image3]
-<figure>
-    <img src="/test_images/whiteLanes.png" width = "400" alt="White lanes" />
-       <img src="/test_images/whiteLanes.png" width = "400" alt="White lanes" />
-   <figcaption>Figure_1: Unprocessed frame, plain picture</figcaption>
-</figure>
+
+
+Fifth, the grayscale image with blur is passed to the canny edge detection function canny(img, low_threshold, high_threshold).
+By trial en error, the low and high threshold values we selected as 50 and 150 respectively, following the 1:3 ratio rule. Output result is shown below side by side.
+
+![alt-text][image3] ![alt-text][image4]
 
 <img src="/test_images/simple_line_noextrapolation.png" width="800" alt="White lane no extrapolation" />
 
