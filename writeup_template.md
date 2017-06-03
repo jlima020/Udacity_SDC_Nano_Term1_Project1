@@ -17,6 +17,8 @@ For this:
 
 ---
 
+[image1]: /test_images/whiteLanes.png
+[image2]: /test_images/gray.png
 ## Reflection
 
 ### 1. Building the pipeline
@@ -26,7 +28,7 @@ The pipeline consists of following a series of 5 steps.
 First, get a new frame and convert it to grayscale using the helper function grayscale(img). 
 The resulting output is shown below.
 
-![alt-text](/test_images/whiteLanes.png "New frame") ![alt-text](/test_images/whiteLanes.png "Grayscale")
+![alt-text][image1 "New frame"] ![alt-text][image2 "Grayscale"]
 
 
 Second, get the grayscale frame and apply gaussian blur using the helper function BLUR
