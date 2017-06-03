@@ -23,7 +23,7 @@ For this:
 [image4]: /test_images/canny.png "Canny edges"
 [image5]: /test_images/cannyWmask.png "Canny edges with mask"
 [image6]: /test_images/hough.png "Hough with extrapolation"
-[image7]: /test_images/houghNoExtrapolation.png "Hough with no extrapolation"
+[image7]: /test_images/houghNoExtrapolatiom.png "Hough with no extrapolation"
 [image8]: /test_images/Full_line_extrapolation.png "Final result with extrapolation"
 [image9]: /test_images/simple_line_noextrapolation.png "final result without extrapolation"
 ## Reflection
