@@ -17,7 +17,7 @@ For this:
 
 [//]: # (Image References)
 
-[image1]: ./test_images/solidWhiteRight.jpg "White lines"
+[image1]: ./test_images/solidWhiteRight.jpg | width = 300 "White lines"
 [image2]: ./test_images/simple_line_noextrapolation.png "No extrapolation"
 [image3]: ./test_images/Full_line_extrapolation.png "extrapolation"
 
