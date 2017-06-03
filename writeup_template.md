@@ -25,7 +25,7 @@ For this:
 [image6]: /test_images/hough.png "Hough with extrapolation"
 [image7]: /test_images/houghNoExtrapolatiom.png "Hough with no extrapolation"
 [image8]: /test_images/Full_line_extrapolation.png "Final result with extrapolation"
-[image9]: "Final result without extrapolation"
+[image9]: /test_images/simple_line_noextrapolation.png "Final result without extrapolation"
 ## Reflection
 
 ### 1. Building the pipeline
