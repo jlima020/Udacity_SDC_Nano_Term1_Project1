@@ -15,7 +15,6 @@ For this:
 * Output the result to a new video with the lane lines annotated
 
 
----
 
 [image1]: /test_images/lanes.png "New frame"
 [image2]: /test_images/gray.png "Grayscale"
@@ -29,6 +28,7 @@ For this:
 ## Reflection
 
 ### 1. Building the pipeline
+---
 
 The pipeline consists of following a series of 6 steps.
 
