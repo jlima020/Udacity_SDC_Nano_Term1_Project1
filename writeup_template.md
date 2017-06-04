@@ -76,5 +76,5 @@ Another shortcoming is the fact that changes in the lighting conditions and the 
 ### 3. Suggest possible improvements to your pipeline
 ---
 
-A possible improvement to the pipeline would be implementing a 3rd degree polynomial fit of the lines. With this the curve detection and plotting wold likely be taking care of in part. Another improvement wold be using probabilities instead of linear fit to detect the lanes.
+A possible improvement to the pipeline would be implementing a 3rd degree polynomial fit of the lines. With this the curve detection and plotting wold likely be taking care of in part. Another improvement wold be using probabilities instead of linear fit to detect the lanes. Using an external array or ideally a small circular Q for keepeing track of slopes of the previous 5 to 10 frames would help with the smoothing of the lines by using recent previous data to calculate an average slope.
 With respect to the changing lighting conditions and contrast of the lanes and pavement, using image enhancement and manipulations techniques would be a possible improvement
