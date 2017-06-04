@@ -65,7 +65,7 @@ These results are not optimal. The goal was to draw only one line for the left a
 ![alt-text][image9] ![alt-text][image8]
 
 ### 2. Identify potential shortcomings with your current pipeline
-
+---
 
 The solution presented here has several drawbacks.
 
@@ -74,7 +74,7 @@ Another shortcoming is the fact that changes in the lighting conditions and the 
 
 
 ### 3. Suggest possible improvements to your pipeline
+---
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+A possible improvement to the pipeline would be implementing a 3rd degree polynomial fit of the lines. With this the curve detection and plotting wold likely be taking care of in part. Another improvement wold be using probabilities instead of linear fit to detect the lanes.
+With respect to the changing lighting conditions and contrast of the lanes and pavement would be using image enhancement and manipulations techniques.
