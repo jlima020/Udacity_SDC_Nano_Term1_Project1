@@ -38,7 +38,7 @@ The resulting output is shown below side by side.
 ![alt-text][image1] ![alt-text][image2]
 
 
-Second, get the grayscale frame and apply gaussian blur using the helper *_function gaussian_blur(img, kernel_size)_*. A kernel of size 5 was chosen to remove image noise using blur.
+Second, get the grayscale frame and apply Gaussian blur using the helper *_function gaussian_blur(img, kernel_size)_*. A kernel of size 5 was chosen to remove image noise using blur.
 
 
 Third, the grayscale image with blur is passed to the canny edge detection function *_canny(img, low_threshold, high_threshold)_*.
@@ -59,7 +59,7 @@ Lastly, the result of the hough transform is passed to the *_weighted_img(img, i
 ![alt-text][image7] ![alt-text][image9]
 
 
-These results are not optimal. The goal was to draw only one line for the left and one for the right lanes that run continuosly. This is achieved by modifying the *_draw_lines(img, lines, color=[255, 0, 0], thickness=7)_* function by gathering all coordinates points, and using the *_polyfit_* function from *_numpy_*, to calculate the slope of the line that best fit these coordinates. Making the *_y_* values fixed makes it possible to draw lines all the way to the edge of the frame, changing only the values of x based on the slopes calculated. The result of this is show below. It can be easyly seen the improvement. The images to the right are the ones plotted using extrapolation.
+These results are not optimal. The goal was to draw only one line for the left and one for the right lanes that run continuously. This is achieved by modifying the *_draw_lines(img, lines, color=[255, 0, 0], thickness=7)_* function by gathering all coordinates points, and using the *_polyfit_* function from *_numpy_*, to calculate the slope of the line that best fit these coordinates. Making the *_y_* values fixed makes it possible to draw lines all the way to the edge of the frame, changing only the values of x based on the slopes calculated. The result of this is show below. It can be easily seen the improvement. The images to the right are the ones plotted using extrapolation.
 
 ![alt-text][image7] ![alt-text][image6]
 ![alt-text][image9] ![alt-text][image8]
@@ -69,8 +69,8 @@ These results are not optimal. The goal was to draw only one line for the left a
 
 The solution presented here has several drawbacks.
 
-Trying to detect curved lanes on the road produces erratic results as can be seen in the challange video output. 
-Another shortcoming is the fact that changes in the lighting conditions and the contrast of the lanes with the pavement will likely result in no lane detection at all, due to the fact that the parameters for the *_canny_* and *_hough_* functions are harcoded on the program and optimizde for the specific conditions of the particular road on the videos. Another problem in the pipeline is with the lines jumping on the video, the transition between fram is not smooth.
+Trying to detect curved lanes on the road produces erratic results as can be seen in the challenge video output. 
+Another shortcoming is the fact that changes in the lighting conditions and the contrast of the lanes with the pavement will likely result in no lane detection at all, due to the fact that the parameters for the *_canny_* and *_hough_* functions are hardcoded on the program and optimized for the specific conditions of the particular road on the videos. Another problem in the pipeline is with the lines jumping on the video, the transition between fram is not smooth.
 
 
 ### 3. Suggest possible improvements to your pipeline
